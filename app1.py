@@ -9,7 +9,7 @@ set_tracing_disabled(disabled=True)
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 # -------------------------------------
 @function_tool      # ap ka function hamesha string written karta hai
-def weather_karachi(city : str ): #yah function ka signature hai 
+def weather_karachi(city : str ) ->str :#yah function ka signature hai 
         #  is ka name llm parta hai  
         #  yah body hai function ki 
         """
